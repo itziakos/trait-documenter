@@ -1,0 +1,17 @@
+language: python
+python:
+  - 2.6
+  - 2.7
+  - 3.2
+  - 3.3
+  - 3.4
+install:
+  - pip install -U nose
+  - pip install cython
+  - pip install mock
+  - pip haas
+  - pip install traits
+  - pip install coverage
+  - python setup.py develop
+script:
+  - haas
