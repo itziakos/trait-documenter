@@ -1,0 +1,7 @@
+Trait-Documenter CHANGELOG
+==========================
+
+Release 0.1.0
+-------------
+
+* Factor out trait-documenter from the traits source.
