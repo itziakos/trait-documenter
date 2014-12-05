@@ -1,7 +1,7 @@
 Trait-Documenter
 ================
 
-Trait-Documenter is an autodoc extension to allow trait definition to be
+Trait-Documenter is an autodoc extension to allow trait definitions to be
 properly rendered in sphinx.
 
 Installation
