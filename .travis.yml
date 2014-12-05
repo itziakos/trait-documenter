@@ -6,13 +6,8 @@ python:
   - 3.3
   - 3.4
 before_install:
-  - pip install coveralls
-  - pip install -U nose
   - pip install cython
-  - pip install mock
-  - pip haas
-  - pip install traits
-  - pip install sphinx
+  - pip install -r test_requirements.txt
 install:
   - python setup.py develop
 script:
