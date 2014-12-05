@@ -1,0 +1,4 @@
+-r requirements
+coveralls
+-U nose
+mock
