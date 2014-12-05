@@ -1,8 +1,8 @@
 import unittest
 
 import mock
-from traits.api import Float, HasTraits, Property
 
+from traits.api import Float, HasTraits, Property
 from trait_documenter.trait_documenter import (
     is_class_trait, TraitDocumenter)
 

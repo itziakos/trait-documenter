@@ -11,9 +11,10 @@ import sys
 import inspect
 from _ast import ClassDef, Assign
 
-from traits.trait_handlers import TraitType
-from traits.has_traits import MetaHasTraits
 from sphinx.ext.autodoc import ClassLevelDocumenter
+
+from traits.has_traits import MetaHasTraits
+from traits.trait_handlers import TraitType
 
 
 def is_class_trait(name, cls):
