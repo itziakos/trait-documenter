@@ -5,13 +5,17 @@ python:
   - 3.2
   - 3.3
   - 3.4
-install:
+before_install:
+  - pip install coveralls
   - pip install -U nose
   - pip install cython
   - pip install mock
   - pip haas
   - pip install traits
   - pip install sphinx
+install:
   - python setup.py develop
 script:
   - haas
+after_success:
+  - coveralls
