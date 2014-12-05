@@ -14,7 +14,7 @@ Usage
 
 Add the trait-documenter to the extensions variable in your *conf.py*::
 
-  extensions.append('trait-documenter')
+  extensions.append('trait_documenter')
 
 .. warning::
 
