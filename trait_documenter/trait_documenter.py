@@ -91,7 +91,7 @@ class TraitDocumenter(ClassLevelDocumenter):
         # this used to only catch SyntaxError, ImportError and
         # AttributeError, but importing modules with side effects can raise
         # all kinds of errors.
-        except Exception, err:
+        except Exception as err:
             if self.env.app and not self.env.app.quiet:
                 self.env.app.info(traceback.format_exc().rstrip())
             msg = (
