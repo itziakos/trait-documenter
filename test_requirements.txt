@@ -1,4 +1,4 @@
--r requirements
+-r requirements.txt
 coveralls
 haas
 mock
