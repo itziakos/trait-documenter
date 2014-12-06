@@ -5,13 +5,12 @@ python:
   - 3.2
   - 3.3
   - 3.4
-install:
-  - pip install -U nose
+before_install:
   - pip install cython
-  - pip install mock
-  - pip haas
-  - pip install traits
-  - pip install sphinx
+  - pip install -r test_requirements.txt
+install:
   - python setup.py develop
 script:
   - haas
+after_success:
+  - coveralls

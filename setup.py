@@ -8,7 +8,6 @@ setup(
     author_email='info@enthought.com',
     maintainer='Ioannis Tziakos',
     maintainer_email='info@enthought.com',
-
     url='https://github.com/enthought/trait-documenter',
     description='Autodoc extention for documenting traits',
     long_description=open('README.rst').read(),
