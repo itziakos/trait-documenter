@@ -26,4 +26,5 @@ setup(
         "Framework :: Sphinx :: Extension",
         "Topic :: Documentation :: Sphinx",
     ],
-    packages=['trait_documenter', 'trait_documenter.tests'])
+    packages=['trait_documenter', 'trait_documenter.tests'],
+    use_2to3=True)
