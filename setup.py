@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='trait_documenter',
-    version='1.0.0',
+    version='1.0.0dev',
     author='Enthought, Inc',
     author_email='info@enthought.com',
     maintainer='Ioannis Tziakos',
@@ -27,4 +27,4 @@ setup(
         "Framework :: Sphinx :: Extension",
         "Topic :: Documentation :: Sphinx",
     ],
-    packages=['trait_documenter', 'trait_documenter.test'])
+    packages=['trait_documenter', 'trait_documenter.tests'])
