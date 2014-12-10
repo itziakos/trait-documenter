@@ -11,6 +11,8 @@
 #  Thanks for using Enthought open source!
 #
 #----------------------------------------------------------------------------
+from __future__ import unicode_literals
+
 import ast
 import traceback
 import sys
@@ -112,7 +114,7 @@ class TraitDocumenter(ClassLevelDocumenter):
         ClassLevelDocumenter.add_directive_header(self, sig)
         definition = self.get_trait_definition()
         self.add_line(
-            u'   :annotation: = {0}'.format(definition), '<autodoc>')
+            '   :annotation: = {0}'.format(definition), '<autodoc>')
 
     def get_trait_definition(self):
         """ Retrieve the Trait attribute definition
@@ -145,5 +147,5 @@ class TraitDocumenter(ClassLevelDocumenter):
             line.strip()
             for line in source.splitlines()[name.lineno-1:endlineno]]
         definition = ''.join(definition_lines)
-        equal = definition.index(u'=')
+        equal = definition.index('=')
         return definition[equal + 1:].lstrip()
