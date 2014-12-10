@@ -1,5 +1,0 @@
-jinja2 < 2.7
--r requirements.txt
-coveralls
-haas
-mock
