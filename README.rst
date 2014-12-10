@@ -1,6 +1,9 @@
 Trait-Documenter
 ================
 
+.. image:: https://travis-ci.org/enthought/trait-documenter.svg?branch=master
+    :target: https://travis-ci.org/enthought/trait-documenter
+
 Trait-Documenter is an autodoc extension to allow trait definitions to be
 properly rendered in sphinx.
 
