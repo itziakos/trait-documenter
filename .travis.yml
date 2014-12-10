@@ -11,6 +11,6 @@ before_install:
 install:
   - python setup.py develop
 script:
-  - haas
+  - coverage run -m haas
 after_success:
   - coveralls
